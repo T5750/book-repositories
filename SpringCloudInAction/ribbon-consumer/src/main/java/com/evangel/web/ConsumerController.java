@@ -17,11 +17,17 @@ public class ConsumerController {
 				.getForEntity("http://HELLO-SERVICE/hello", String.class)
 				.getBody();
 	}
-	// @Autowired
-	// HelloService helloService;
-	//
-	// @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
-	// public String helloConsumer() {
-	// return helloService.hello();
-	// }
+
+	@Autowired
+	HelloService helloService;
+
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	public String helloServiceConsumer() {
+		return helloService.helloService();
+	}
+
+	@RequestMapping(value = "/hello2", method = RequestMethod.GET)
+	public String helloServiceConsumer2() {
+		return helloService.hello();
+	}
 }
