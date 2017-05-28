@@ -11,3 +11,8 @@ public class Application {
 		new SpringApplicationBuilder(Application.class).web(true).run(args);
 	}
 }
+// chapter2
+// http://localhost:1111/
+// chapter3
+// http://peer1:1111/
+// http://peer2:1112/
