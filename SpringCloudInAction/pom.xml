@@ -13,6 +13,8 @@
 		<module>hello-service</module>
 		<module>ribbon-consumer</module>
 		<module>spring-boot-hello</module>
+		<module>hystrix-dashboard</module>
+		<module>turbine</module>
 	</modules>
 
 	<parent>

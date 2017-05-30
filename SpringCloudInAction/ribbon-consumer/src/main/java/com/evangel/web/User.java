@@ -6,8 +6,13 @@ package com.evangel.web;
 public class User {
 	private String name;
 	private Integer age;
+	private Long id;
 
 	public User() {
+	}
+
+	public User(String name) {
+		this.name = name;
 	}
 
 	public User(String name, Integer age) {
@@ -34,5 +39,13 @@ public class User {
 	@Override
 	public String toString() {
 		return "name=" + name + ", age=" + age;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 }
