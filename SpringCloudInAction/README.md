@@ -19,11 +19,23 @@
  - [Kafka 0.10.1.1](http://kafka.apache.org/downloads.html)
  - [Consul 0.8.3](https://www.consul.io/downloads.html)
 
-### 《Spring Cloud源码分析》系列博文
+## 《Spring Cloud源码分析》系列博文
 
 - [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
 - [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
 - [Spring Cloud源码分析（四）Zuul：核心过滤器](http://blog.didispace.com/spring-cloud-source-zuul/)
+
+## What's included
+
+```
+SpringCloudInAction/
+├── spring-boot-hello
+├── eureka-server
+├── hello-service
+├── ribbon-consumer
+├── hystrix-dashboard
+└── turbine
+```
 
 ## Links
 
