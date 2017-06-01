@@ -15,7 +15,7 @@ import com.evangel.model.AmazonProperties;
 import com.evangel.model.Book;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/reader")
 @ConfigurationProperties(prefix = "amazon")
 public class ReadingListController {
 	private ReadingListRepository readingListRepository;
@@ -45,6 +45,6 @@ public class ReadingListController {
 			Book book) {
 		book.setReader(reader);
 		readingListRepository.save(book);
-		return "redirect:/{reader}";
+		return "redirect:/reader/{reader}";
 	}
 }
