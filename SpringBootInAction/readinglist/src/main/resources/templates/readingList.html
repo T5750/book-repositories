@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
 	<title>Reading List</title>
 	<link rel="stylesheet" th:href="@{/style.css}"></link>
@@ -9,6 +10,7 @@
 <div th:unless="${#lists.isEmpty(books)}">
 	<dl th:each="book : ${books}">
 		<dt class="bookHeadline">
+			<a th:href="'http://www.amazon.com/gp/product/' + ${book.isbn} + '/tagg=' + ${amazonID}" th:text="${book.title}">Title</a>
 			<span th:text="${book.title}">Title</span> by
 			<span th:text="${book.author}">Author</span>
 			(ISBN: <span th:text="${book.isbn}">ISBN</span>)
