@@ -1,4 +1,4 @@
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
 	<title>Oops!</title>
 	<link rel="stylesheet" th:href="@{/style.css}"></link>
@@ -12,6 +12,11 @@
 		(<span th:text="${path}"></span>).</p>
 
 	<p th:text="${'Details: ' + message}"></p>
+	<p th:text="${'Timestamp: ' + timestamp}"></p>
+	<p th:text="${'Status: ' + status}"></p>
+	<p th:text="${'Error: ' + error}"></p>
+	<p th:text="${'Exception: ' + exception}"></p>
+	<p th:text="${'Trace: ' + trace}"></p>
 </div>
 </html>
 </html>
