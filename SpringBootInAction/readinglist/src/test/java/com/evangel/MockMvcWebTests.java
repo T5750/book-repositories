@@ -59,7 +59,7 @@ public class MockMvcWebTests {
 						.string("Location", prefix_reader + "/readingList"));
 		Book expectedBook = new Book();
 		expectedBook.setId(1L);
-		expectedBook.setReader("readingList");// craig
+		// expectedBook.setReader("readingList");// craig
 		expectedBook.setTitle("BOOK TITLE");
 		expectedBook.setAuthor("BOOK AUTHOR");
 		expectedBook.setIsbn("1234567890");
