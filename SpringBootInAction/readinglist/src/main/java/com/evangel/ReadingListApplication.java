@@ -32,7 +32,7 @@ public class ReadingListApplication extends WebMvcConfigurerAdapter {
 		argumentResolvers.add(new ReaderHandlerMethodArgumentResolver());
 	}
 }
-// http://localhost:8000/readinglist
+// http://localhost:8000/readingList
 // 3.1 覆盖 Spring Boot 自动配置
 // http://localhost:8000
 // 1.2.2 使用 Spring Initializr 初始化 Spring Boot 项目

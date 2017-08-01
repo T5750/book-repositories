@@ -20,6 +20,7 @@ import com.evangel.model.Reader;
 @Controller
 // @RequestMapping("/readingList")
 @RequestMapping("/")
+// @RequestMapping({ "/", "readingList" })
 @ConfigurationProperties(prefix = "amazon")
 public class ReadingListController {
 	private static final String reader = "craig";
