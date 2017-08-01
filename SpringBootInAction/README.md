@@ -31,7 +31,8 @@ d. Spring Boot dependencies
 SpringBootInAction/
 ├── readinglist
 ├── UnsecuredReadingList
-└── SecuredReadingList
+├── SecuredReadingList
+└── readinglistGroovy
 ```
 
 ## Copyright
