@@ -29,7 +29,9 @@ d. Spring Boot dependencies
 
 ```
 SpringBootInAction/
-└── readinglist
+├── readinglist
+├── UnsecuredReadingList
+└── SecuredReadingList
 ```
 
 ## Copyright

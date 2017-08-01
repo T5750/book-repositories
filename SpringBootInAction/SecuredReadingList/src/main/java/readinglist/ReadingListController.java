@@ -1,47 +1,26 @@
-package com.evangel.controller;
+package readinglist;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseStatus;
-
-import com.evangel.db.ReadingListRepository;
-import com.evangel.model.AmazonProperties;
-import com.evangel.model.Book;
-import com.evangel.model.Reader;
 
 @Controller
-// @RequestMapping("/readingList")
 @RequestMapping("/")
-// @RequestMapping({ "/", "readingList" })
-// @ConfigurationProperties(prefix = "amazon")
+@ConfigurationProperties("amazon")
 public class ReadingListController {
-	private static final String reader = "craig";
 	private ReadingListRepository readingListRepository;
-	private AmazonProperties amazonProperties;
+	private AmazonProperties amazonConfig;
 
 	@Autowired
 	public ReadingListController(ReadingListRepository readingListRepository,
-			AmazonProperties amazonProperties) {
+			AmazonProperties amazonConfig) {
 		this.readingListRepository = readingListRepository;
-		this.amazonProperties = amazonProperties;
-	}
-
-	@RequestMapping(method = RequestMethod.GET, value = "/fail")
-	public void fail() {
-		throw new RuntimeException();
-	}
-
-	@ExceptionHandler(value = RuntimeException.class)
-	@ResponseStatus(value = HttpStatus.BANDWIDTH_LIMIT_EXCEEDED)
-	public String error() {
-		return "error";
+		this.amazonConfig = amazonConfig;
 	}
 
 	@RequestMapping(method = RequestMethod.GET)
@@ -50,7 +29,7 @@ public class ReadingListController {
 		if (readingList != null) {
 			model.addAttribute("books", readingList);
 			model.addAttribute("reader", reader);
-			model.addAttribute("amazonID", amazonProperties.getAssociateId());
+			model.addAttribute("amazonID", amazonConfig.getAssociateId());
 		}
 		return "readingList";
 	}
@@ -59,7 +38,6 @@ public class ReadingListController {
 	public String addToReadingList(Reader reader, Book book) {
 		book.setReader(reader);
 		readingListRepository.save(book);
-		// return "redirect:/readingList";
 		return "redirect:/";
 	}
 }

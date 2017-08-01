@@ -10,6 +10,8 @@
 	<version>1.0-SNAPSHOT</version>
 	<modules>
 		<module>readinglist</module>
+		<module>UnsecuredReadingList</module>
+		<module>SecuredReadingList</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
