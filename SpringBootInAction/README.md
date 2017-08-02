@@ -8,6 +8,11 @@
  - [Maven 3](http://maven.apache.org/)
  - [Spring Boot 1.3.7.RELEASE](https://projects.spring.io/spring-boot/)
  - [Thymeleaf 2.1.5.RELEASE](http://www.thymeleaf.org/download.html)
+ - [H2 1.4.192](http://www.h2database.com/html/main.html)
+ - [Spring Security 4.0.4 RELEASE](http://projects.spring.io/spring-security)
+ - [Gradle v4.0.2](https://gradle.org/releases)
+ - [Groovy 2.4](http://www.groovy-lang.org/download.html)
+ - [Grails 3.2.11](https://grails.org/download.html)
 
 ## Table of Contents
 
@@ -32,7 +37,9 @@ SpringBootInAction/
 ├── readinglist
 ├── UnsecuredReadingList
 ├── SecuredReadingList
-└── readinglistGroovy
+├── readinglistGroovy
+├── gormgsp
+└── grails
 ```
 
 ## Copyright
