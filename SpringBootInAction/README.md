@@ -39,7 +39,8 @@ SpringBootInAction/
 ├── SecuredReadingList
 ├── readinglistGroovy
 ├── gormgsp
-└── grails
+├── grails
+└── readinglist-cli
 ```
 
 ## Copyright
