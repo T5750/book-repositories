@@ -3,6 +3,7 @@
 ## Runtime Environment
 
  - [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+ - [Java 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
  - [Spring Framework 4.2.7.RELEASE](http://projects.spring.io/spring-framework)
  - [IntelliJ IDEA 14.0.5](http://www.jetbrains.com/idea/download/index.html)
  - [Maven 3](http://maven.apache.org/)
@@ -13,6 +14,10 @@
  - [Gradle v4.0.2](https://gradle.org/releases)
  - [Groovy 2.4](http://www.groovy-lang.org/download.html)
  - [Grails 3.2.11](https://grails.org/download.html)
+ - [Flyway](http://flywaydb.org)
+ - [Liquibase](http://www.liquibase.org)
+ - [Cloud Foundry](http://run.pivotal.io)
+ - [Heroku](https://www.heroku.com)
 
 ## Table of Contents
 
@@ -42,8 +47,13 @@ SpringBootInAction/
 ├── grails
 ├── readinglist-cli
 ├── readinglist-java
-└── readinglist_war
+├── readinglist_war
+└── readinglist_cloud
 ```
+
+## Links
+
+- [Spring Boot in Action](https://www.manning.com/books/spring-boot-in-action)
 
 ## Copyright
 

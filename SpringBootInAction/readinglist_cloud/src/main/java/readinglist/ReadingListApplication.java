@@ -25,7 +25,9 @@ public class ReadingListApplication extends WebMvcConfigurerAdapter {
 		argumentResolvers.add(new ReaderHandlerMethodArgumentResolver());
 	}
 }
-// gradle build
-// 8.2.3 开启数据库迁移
-// Flyway（http://flywaydb.org）
-// Liquibase（http://www.liquibase.org）
+// Cloud Foundry
+// http://run.pivotal.io
+// cf命令行工具
+// https://console.run.pivotal.io/tools
+// Heroku
+// https://www.heroku.com
