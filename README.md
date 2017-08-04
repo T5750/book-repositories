@@ -30,7 +30,9 @@ Installation:
 ```
 book-repositories/
 ├── v0.1
-│   └── SpringCloudInAction
-└── v0.2
-    └── SpringBootInAction
+│   └── SpringBootInAction
+├── v0.2
+│   └── SpringInAction
+└── v0.3
+    └── SpringCloudInAction
 ```
