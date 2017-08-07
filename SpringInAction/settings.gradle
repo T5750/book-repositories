@@ -1,0 +1,4 @@
+rootProject.name = 'SpringInAction'
+include 'Chapter_01:knight'
+findProject(':Chapter_01:knight')?.name = 'knight'
+
