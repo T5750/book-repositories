@@ -1,4 +1,6 @@
 rootProject.name = 'SpringInAction'
 include 'Chapter_01:knight'
 findProject(':Chapter_01:knight')?.name = 'knight'
+include 'Chapter_21:contacts'
+findProject(':Chapter_21:contacts')?.name = 'contacts'
 
