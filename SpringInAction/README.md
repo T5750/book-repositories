@@ -1,4 +1,4 @@
-# SpringBootInAction
+# SpringInAction
 
 ## Runtime Environment
 
@@ -50,7 +50,8 @@ SpringInAction/
 ├── Chapter_02/
 │   ├── stereo-autoconfig
 │   ├── stereo-javaconfig
-│   └── stereo-xmlconfig
+│   ├── stereo-xmlconfig
+│   └── stereo-mixedconfig
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
