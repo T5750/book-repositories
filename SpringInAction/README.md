@@ -52,6 +52,11 @@ SpringInAction/
 │   ├── stereo-javaconfig
 │   ├── stereo-xmlconfig
 │   └── stereo-mixedconfig
+├── Chapter_03/
+│   ├── profiles
+│   ├── conditional
+│   ├── scopedbeans
+│   └── externals
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
