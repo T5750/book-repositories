@@ -19,4 +19,6 @@ include 'Chapter_03:scopedbeans'
 findProject(':Chapter_03:scopedbeans')?.name = 'scopedbeans'
 include 'Chapter_03:externals'
 findProject(':Chapter_03:externals')?.name = 'externals'
+include 'Chapter_05:Spittr'
+findProject(':Chapter_05:Spittr')?.name = 'Spittr'
 
