@@ -40,10 +40,10 @@ war {
     baseName = 'spittr'
 }
 
-eclipse {
-    wtp {
-        component {
-            contextPath = 'spittr'
-        }
-    }
-}
+//eclipse {
+//    wtp {
+//        component {
+//            contextPath = 'spittr'
+//        }
+//    }
+//}
