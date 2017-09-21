@@ -27,4 +27,6 @@ include 'Chapter_06:tiles'
 findProject(':Chapter_06:tiles')?.name = 'tiles'
 include 'Chapter_06:thymeleaf'
 findProject(':Chapter_06:thymeleaf')?.name = 'thymeleaf'
+include 'Chapter_07:Spittr_07'
+findProject(':Chapter_07:Spittr_07')?.name = 'Spittr_07'
 
