@@ -23,4 +23,8 @@ include 'Chapter_05:Spittr'
 findProject(':Chapter_05:Spittr')?.name = 'Spittr'
 include 'Chapter_06:jsp'
 findProject(':Chapter_06:jsp')?.name = 'jsp'
+include 'Chapter_06:tiles'
+findProject(':Chapter_06:tiles')?.name = 'tiles'
+include 'Chapter_06:thymeleaf'
+findProject(':Chapter_06:thymeleaf')?.name = 'thymeleaf'
 

@@ -60,7 +60,9 @@ SpringInAction/
 ├── Chapter_05/
 │   └── Spittr
 ├── Chapter_06/
-│   └── jsp
+│   ├── jsp
+│   ├── tiles
+│   └── thymeleaf
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
