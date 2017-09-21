@@ -21,4 +21,6 @@ include 'Chapter_03:externals'
 findProject(':Chapter_03:externals')?.name = 'externals'
 include 'Chapter_05:Spittr'
 findProject(':Chapter_05:Spittr')?.name = 'Spittr'
+include 'Chapter_06:jsp'
+findProject(':Chapter_06:jsp')?.name = 'jsp'
 

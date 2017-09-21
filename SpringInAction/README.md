@@ -59,6 +59,8 @@ SpringInAction/
 │   └── externals
 ├── Chapter_05/
 │   └── Spittr
+├── Chapter_06/
+│   └── jsp
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
