@@ -29,4 +29,6 @@ include 'Chapter_06:thymeleaf'
 findProject(':Chapter_06:thymeleaf')?.name = 'thymeleaf'
 include 'Chapter_07:Spittr_07'
 findProject(':Chapter_07:Spittr_07')?.name = 'Spittr_07'
+include 'Chapter_08:SpringPizza'
+findProject(':Chapter_08:SpringPizza')?.name = 'SpringPizza'
 

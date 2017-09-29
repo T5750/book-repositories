@@ -9,9 +9,14 @@
  - [Mockito 1.9.5](http://site.mockito.org)
  - [AspectJ 1.7.2](http://www.eclipse.org/aspectj/downloads.php)
  - [Spring Boot 1.1.4.RELEASE](https://projects.spring.io/spring-boot)
+ - [Apache Tiles 3.0.1](http://tiles.apache.org/download.html)
  - [Thymeleaf 2.1.3.RELEASE](http://www.thymeleaf.org/download.html)
  - [H2 1.4.182](http://www.h2database.com/html/main.html)
  - [Spring Boot CLI 1.5.2.RELEASE](http://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli)
+ - [Hibernate 4.1.6.Final](http://hibernate.org/orm/releases)
+ - [Spring Security 3.2.0.RELEASE](http://projects.spring.io/spring-security)
+ - [Spring Data JPA 1.3.2.RELEASE](http://projects.spring.io/spring-data-jpa)
+ - [Spring Web Flow 2.4.1.RELEASE](http://projects.spring.io/spring-webflow)
 
 ## Table of Contents
 
@@ -65,6 +70,8 @@ SpringInAction/
 │   └── thymeleaf
 ├── Chapter_07/
 │   └── Spittr_07
+├── Chapter_08/
+│   └── SpringPizza
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
