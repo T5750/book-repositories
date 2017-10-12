@@ -4,9 +4,9 @@ import org.springframework.security.web.context.AbstractSecurityWebApplicationIn
 
 public class SecurityWebInitializer
 		extends AbstractSecurityWebApplicationInitializer {
-	public SecurityWebInitializer() {
+//	public SecurityWebInitializer() {
 		// fixed java.lang.IllegalStateException: No WebApplicationContext
 		// found: no ContextLoaderListener registered?
-		super(SecurityConfig.class);
-	}
+//		super(SecurityConfig.class);
+//	}
 }
