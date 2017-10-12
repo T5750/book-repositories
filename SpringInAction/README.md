@@ -72,6 +72,8 @@ SpringInAction/
 │   └── Spittr_07
 ├── Chapter_08/
 │   └── SpringPizza
+├── Chapter_09/
+│   └── thymeleaf_09
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
