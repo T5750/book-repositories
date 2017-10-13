@@ -33,4 +33,6 @@ include 'Chapter_08:SpringPizza'
 findProject(':Chapter_08:SpringPizza')?.name = 'SpringPizza'
 include 'Chapter_09:thymeleaf_09'
 findProject(':Chapter_09:thymeleaf_09')?.name = 'thymeleaf_09'
+include 'Chapter_10:jdbc'
+findProject(':Chapter_10:jdbc')?.name = 'jdbc'
 

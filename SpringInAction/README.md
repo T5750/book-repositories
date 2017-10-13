@@ -74,6 +74,8 @@ SpringInAction/
 │   └── SpringPizza
 ├── Chapter_09/
 │   └── thymeleaf_09
+├── Chapter_10/
+│   └── jdbc
 └── Chapter_21/
     ├── rest_hi
     ├── contacts
